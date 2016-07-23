@@ -115,11 +115,8 @@ class Personnummer {
         int[] arr2 = TalTillIntArray(rnd);
 
         int[] arr = SattIhopArrays(arr1, arr2);
-        for (int i : arr)
-            System.out.println(i);
 
         int kontrollsiffra = GenereraKontrollsiffra(arr);
-        System.out.println(kontrollsiffra);
 
         StringBuilder b = new StringBuilder();
         for (int i : arr)
